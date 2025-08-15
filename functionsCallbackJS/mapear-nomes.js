@@ -17,6 +17,8 @@ function transformarMaiusculo(nome){
     return nome.toUpperCase();
 
 }
+
+
 const nomes = ['ana', 'joao', 'carlos', 'maria', 'luiz']
 const modificaNomes = processarNomes(nomes, filtroTamanho, transformarMaiusculo)
-console.log(modificaNomes)
+console.log(modificaNomes);
