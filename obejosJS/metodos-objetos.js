@@ -14,8 +14,15 @@ const estudante = {
 };
 const chaveObjeto = Object.keys(estudante)
 console.log(chaveObjeto);
-
+//Object Keys retornar um array com as chaves
 
 if (!chaveObjeto.includes('rua')){
     console.error('Precisa do endereco')
 }
+
+//exemplo do entries que mostra a chave e o valor em um array
+const meuObjeto = { a: 1, b: 2, c: 3 };
+const entradas = Object.entries(meuObjeto);
+
+console.log(entradas);
+// Saída: [['a', 1], ['b', 2], ['c', 3]]

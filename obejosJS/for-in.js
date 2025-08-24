@@ -31,4 +31,4 @@ for(let chave in estudante){
 estudante['nome'] //notacao []
 estudante.nome //notacao .
 
-//Object Object = resultado do JS tentando converter um objeto em uma string
+//Object Object = resultado do JS tentando converter um objeto em uma strings
